@@ -1,0 +1,98 @@
+/* Base styles */
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Header styles */
+header, section {
+  text-align: center;
+  margin-bottom: 30px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info a {
+  margin: 0 10px;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+/* Heading styles */
+h1, h2 {
+  color: #275c91;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 3px;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-top: 25px;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+/* Job section styles */
+.job {
+  margin-bottom: 20px;
+}
+
+.job-header {
+  color: #275c91;     
+  margin-bottom: 10px;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.company {
+  font-style: italic;
+}
+
+.date-location {
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* List styles */
+ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Skills section */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Print styles */
+@media print {
+  body {
+      padding: 0;
+      max-width: none;
+  }
+  
+  a {
+      text-decoration: none;
+      color: #333;
+  }
+}

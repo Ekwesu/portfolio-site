@@ -1,256 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DO_Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Daniel Ogbuigwe</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Daniel Ogbuigwe</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Ogbuigwe - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DANIEL OGBUIGWE</h1>
+        <div class="contact-info">
+            21106 Golden Palm Ln, Cypress, USA | 
+            <a href="mailto:ogbuigwed@gmail.com">ogbuigwed@gmail.com</a> |
+            <a href="https://github.com/ogbidaniel">GitHub</a> |
+            <a href="https://www.linkedin.com/in/daniel-ogbuigwe/">LinkedIn</a> |
+            +1 (364) 652-0105
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Daniel Ogbuigwe profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Daniel Ogbuigwe</h1>
-        <p class="section__text__p2">Solutions Architect</p>
-        <div class="btn-container">
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/daniel-ogbuigwe-620286200/"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/ogbidaniel'"
-          />
-        </div>
-      </div>
+    </header>
+
+    <section>
+        <h2>PROFESSIONAL SUMMARY</h2>
+        <p>
+            Experienced Mechanical Engineer and an aspiring Computer Science professional with experience in low resource speech recognition, 
+            telecom network operations and engineering solutions. Proficient in Python programming, writing technical reports and data processing. 
+            Demonstrated success in supporting research projects and presenting reports. Strong collaboration and communication skills in both fieldwork 
+            and lab environments.
+        </p>
     </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>1 year <br />Solutions Architect</p>
+
+    <section>
+        <h2>EXPERIENCE</h2>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Mechanical Engineer</span> - 
+                <span class="company">Debyl Limited</span>
+                <div class="date-location">September 2024 - December 2024 | Port Harcourt, Nigeria</div>
             </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Eng. Mechanical Engineering<br />PGD. Computer Science</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-                An AWS certified cloud practitioner with experience in mechanical engineering and network operations. Monitoring shared communication infrastructure used by local telecom giants like MTN and Airtel fostered my interest in large scale systems and cloud technology. Coupled with the recent boom in AI awareness globally, I have genuine interest in making future systems more accessible to developing economies.
-            </p>
-          </div>
+            <ul>
+                <li>Mechanical Engineer on the team building a cryogenic High Purity Nitrogen Plant for NNPCL.</li>
+                <li>Planned, Lead (alongside QAQC engineer) and documented hydrotest and spark test for all product lines on site.</li>
+                <li>Assisted project manager in progress tracking, task assignment, performance review and reporting.</li>
+                <li>AutoCAD drawing: x3 Platform and Ladders drawings, x1 Pressure tank to condenser isometric drawing.</li>
+            </ul>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Telecommunication & Network Analyst</span> - 
+                <span class="company">Huawei Technologies</span>
+                <div class="date-location">May 2022 - April 2023 | Lagos, Nigeria</div>
+            </div>
+            <ul>
+                <li>Conducted network operations surveillance for MTN, South-Eastern region.</li>
+                <li>Processed network logs and classified event details, contributing to 98% service uptime.</li>
+                <li>Supported the optimization of network performance through continuous monitoring and troubleshooting.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Network Operations Center Engineer</span> -
+                <span class="company">I-Engineering‚ Inc</span>
+                <div class="date-location">November 2021 - May 2022 | Remote</div>
+            </div>
+            <ul>
+                <li>Remotely monitored telecommunication infrastructure across multiple regions (Niger, Kano, Bauchi, Gombe).</li>
+                <li>Mobilized stakeholders to resolve incidents promptly, minimizing network downtime.</li>
+                <li>Improved data collection, cleaning, and transformation processes to enhance reporting accuracy.</li>
+            </ul>
+        </div>
     </section>
-    <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">AWS Solutions Architecture</h2>
-                    <div class="article-container">
-                        <article>
-                            <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                            />
-                            <div>
-                                <h3>Amazon Web Services (AWS)</h3>
-                                <p>Certified</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                            />
-                            <div>
-                                <h3>Python Development</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                            />
-                            <div>
-                                <h3>Docker</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                            />
-                            <div>
-                                <h3>Microsoft Email Service</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <!-- Add other relevant AWS tools and services as needed -->
-                    </div>
-                </div>
-                <!-- Remove the duplicate "Frontend Development" section as discussed -->
+
+    <section>
+        <h2>EDUCATION</h2>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Masters in Computer Science</span> -
+                <span class="company">Prairie View A&M University</span>
+                <div class="date-location">January 2025 - December 2026 | Texas, USA</div>
             </div>
         </div>
-        <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            onclick="location.href='./#projects'"
-        />
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Post-Graduate Diploma in Computer Science</span> -
+                <span class="company">Babcock University</span>
+                <div class="date-location">January 2023 - July 2024 | GPA: 4.25/5.0</div>
+            </div>
+            <ul>
+                <li>Assisted Master's researchers in cleaning and preparing datasets for Machine Learning research projects.</li>
+                <li>Trained custom models using AWS, ensuring accurate data representation for research reports.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Bachelor of Engineering in Mechanical Engineering</span> -
+                <span class="company">Baze University</span>
+                <div class="date-location">September 2016 - August 2022 | WES GPA: 3.36/4.0</div>
+            </div>
+            <ul>
+                <li>Built a Tronxy Fused Deposition Modelling 3D printer for undergraduate project.</li>
+                <li>Served as Senator for the faculty of Engineering of the Student Representative Council (SRC).</li>
+            </ul>
+        </div>
     </section>
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <!-- Update the details for Project Three to reflect it as an ML project -->
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img
-                            src="./assets/project-3.png"
-                            alt="Project 3"
-                            class="project-img"
-                        />
-                    </div>
-                    <h2 class="experience-sub-title project-title">MMS-300 finetuning for Ika</h2>
-                    <div class="btn-container">
-                        <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com/'"
-                        >
-                            Github
-                        </button>
-                        <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com/'"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-                <!-- Continue with other projects as needed -->
+
+    <section>
+        <h2>RESEARCH & PROJECTS</h2>
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Automatic Speech Recognition for the Ika Language (2024)</span> -
+                <span class="company">Research</span>
+            </div>
+            <p><a href="https://doi.org/10.48550/arXiv.2410.00940">https://doi.org/10.48550/arXiv.2410.00940</a></p>
+        </div>
+    </section>
+
+    <section>
+        <h2>CERTIFICATIONS</h2>
+        <p>AWS Solutions Architect Associate</p>
+        <p>AWS Certified Cloud Practitioner</p>
+    </section>
+
+    <section>
+        <h2>TECHNICAL SKILLS</h2>
+        <div class="skills">
+            <div>
+                <h3>Programming</h3>
+                <p>C++, Python, HTML, JS, CSS</p>
+            </div>
+            <div>
+                <h3>Cloud </h3>
+                <p>Storage, Serverless, Sagemaker - AWS & Google Cloud</p>
+            </div>
+            <div>
+                <h3>Engineering</h3>
+                <p>Piping, Refrigeration, 3D Printing, PM</p>
+            </div>
+            <div>
+                <h3>Data Science</h3>
+                <p>Data Prep, Numpy, Matplotlib, Pandas, PyTorch</p>
             </div>
         </div>
-        <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            onclick="location.href='./#contact'"
-        />
-    </section>  
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:ogbuigwed@gmail.com">ogbuigwed@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/daniel-ogbuigwe-620286200/">LinkedIn</a></p>
-        </div>
-      </div>
     </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2023 Daniel Ogbuigwe. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
